@@ -66,10 +66,18 @@ print("hi" , "bye" , sep=" $ ")
 ```
 
 ### Changing the End Behavior (`end`)
-Normally, after printing a line, the printer advances the paper down to a **new line** (like hitting 'Enter'). You can tell it to stay on the same line instead.
+normally  two seperate print command means that two seperate lines would be the output, this is because python makes it end 
+with a new line. if you want the both commands on the same line then you add a end=" " to say python to end with space instead of a new line. 
 
 ```python
-# Tell the printer to end with a space instead of a new line
+print("hi")
+print("bye")
+#output:
+#hi
+#bye
+# in separate lines.
+
+# Tell python to end with a space instead of a new line
 print("Hello", end=" ")
 print("World!")
 
