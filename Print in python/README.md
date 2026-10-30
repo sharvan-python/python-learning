@@ -44,21 +44,25 @@ print("My lucky number is", 7)
 
 ---
 
-## 3. The Custom Settings (Adding Options)
+## 3. The print() commands seperate settings
 
-Just like a real printer has settings (like "Double-Sided" or "Color"), Python's printer has built-in settings you can tweak.
-
-### Changing the Separator (`sep`)
-By default, the printer puts a single space between items. You can change this to commas, dashes, or anything else.
+### adding spaces and more
+By default, the print command  puts a single space between items. You can change this to commas, dashes, or anything else.
 
 ```python
 # Default setting (space)
-print("Apple", "Banana", "Cherry")  
+print("Apple", "Banana", "Cherry")
 # Output: Apple Banana Cherry
-
+# here when you put commas in between seperate  strings (letters wrapped in commas ) it puts a space
+# common mistake:
+print("apple,banana,cherry")
+#this output would be: apple,banana,cherry |,that is why if you want a space you need to keep the comma in between the strings  
 # Custom setting: separating with a dash
-print("Apple", "Banana", "Cherry", sep=" - ")  
+print("Apple", "Banana", "Cherry", sep=" - ")  # here you set the separation value with sep="-", the value is set to hyphen (-)
 # Output: Apple - Banana - Cherry
+# you can set this to any value you want like dollar sign.
+print("hi" , "bye" , sep=" $ ") 
+#output: hi $ bye 
 ```
 
 ### Changing the End Behavior (`end`)
