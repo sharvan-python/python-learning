@@ -36,9 +36,10 @@ print("Hello, World!") # the output of this would be: Hello, World!
 print(42) #output: 42 
 
 # Printing text and numbers at a same time needs you to type the text wrapped in quotes with a comma after
- it and a number 
-print("My lucky number is", 7) # output: My lucky number is 7 | here python combined both the number and text and
-displayed the output, it there is no comma in between like print("hi my age is" 7) , this would show an error
+# it and a number 
+print("My lucky number is", 7)
+ # output: My lucky number is 7 | here python combined both the number and text and
+ # displayed the output, it there is no comma in between like print("hi my age is" 7) , this would show an error
 ```
 
 ---
