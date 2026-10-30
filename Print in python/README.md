@@ -87,8 +87,5 @@ print("World!")
 
 ---
 
-print(f"Welcome {visitor_name}! Your ticket number is {ticket_number}.")
 
-# Output: Welcome Alice! Your ticket number is 104.
-```
 
