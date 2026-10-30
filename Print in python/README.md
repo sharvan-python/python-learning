@@ -75,7 +75,7 @@ print("bye")
 #output:
 #hi
 #bye
-# in separate lines.
+#( output appear in separate lines.)
 
 # Tell python to end with a space instead of a new line
 print("Hello", end=" ")
