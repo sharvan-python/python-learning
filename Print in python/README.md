@@ -87,15 +87,6 @@ print("World!")
 
 ---
 
-## 4. Filling Out Forms (F-Strings)
-
-Imagine printing a template form where you just fill in the blanks (like a name or age). In Python, we use **F-strings** to slide variables directly into our text.
-
-```python
-visitor_name = "Alice"
-ticket_number = 104
-
-# The 'f' before the quotes tells Python to look for the {} blanks
 print(f"Welcome {visitor_name}! Your ticket number is {ticket_number}.")
 
 # Output: Welcome Alice! Your ticket number is 104.
