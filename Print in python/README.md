@@ -26,17 +26,17 @@ To understand how `print()` works, look at this quick comparison:
 
 ## 2. Basic Usage
 
-As said before think the print() as a printer and the terminal or screen as a paper , think whatever you keep in between the brackets is what you give the printer to print the print on a paper , you wrap the text you keep in quotes ("") so that python understands it is text. you do not need quotes 
+As said before think the print() as a printer and the terminal or screen as a paper , think whatever you keep in between the brackets is what you give the printer to print the print on a paper , you wrap the text you keep in quotes ("") so that python understands it is text. you do not need quotes for numbers.
 
 ```python
 # Printing text (Use quotes so Python knows it's text)
-print("Hello, World!")
+print("Hello, World!") # the output of this would be: Hello, World!
 
 # Printing numbers (No quotes needed for math)
-print(42)
+print(42) #output: 42 
 
-# Printing multiple items at once (The printer separates them with a space automatically)
-print("My lucky number is", 7)
+# Printing text and numbers at a same time needs to write the text wrapped in quotes with a comma after it and a number 
+print("My lucky number is", 7) # output: My lucky number is 7 | here python combined both the number and text and displayed the output, it there is no comma in between like print("hi my age is" 7) , this would show an error
 ```
 
 ---
