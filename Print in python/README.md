@@ -18,7 +18,7 @@ To understand how `print()` works, look at this quick comparison:
 
 | The Action | A Real Printer 🖨️ | The Python `print()` Function 💻 |
 | :--- | :--- | :--- |
-| **What you print** | text , pictures and more | Strings (text), numbers, or variables (you will learn later what is an variable) |
+| **What you print** | text , pictures and more | Strings (text), numbers, or variables (you will learn later what is a variable) |
 | **Where it goes** | Onto a blank piece of paper | Onto your computer screen (terminal) |
 | **The Blueprint** | You load paper and press "Print". | `print("Hello World")` sends the text to the screen. |
 
