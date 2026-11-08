@@ -11,7 +11,7 @@ if height <= 0 or weight <= 0:
 
 # WHO BMI classification for adults
 bmi = weight / (height ** 2)
-print(f"Your BMI is {bmi:.1f}")
+print(f"Your BMI is {bmi}")
 
 if bmi < 18.5:
     print("You are underweight")
