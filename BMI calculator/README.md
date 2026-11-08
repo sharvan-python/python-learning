@@ -24,4 +24,6 @@ The program categorizes results using standard international ranges:
 * **Obese:** ≥ 30.0
 
 ## What i learnt
-I  have learnt how to properly use if,elif statement , how to use comparison operators,how to make the script not crash if the user types wrong stuff with try and print function in one combined script .
+* I  have learnt how to properly use if,elif statement.
+* how to use comparison operators.
+* how to make the script not crash if the user types wrong stuff with try.
