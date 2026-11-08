@@ -5,7 +5,7 @@ A small python script that takes the user's height and weight and gives out thei
 ## 🚀 Run Instantly in Your Browser (No Setup Required)
 You can run and interact with this script directly in your browser using **GitHub Codespaces**.
 
-1. Click the green **Code** button at the top right of this page.
+1. Click the green **Code** button at the top right of the main repository page.
 2. Select the **Codespaces** tab, then click **Create codespace on main**.
 3. Once the cloud environment loads, copy and paste these commands into the terminal at the bottom one by one (press Enter after each):
 
